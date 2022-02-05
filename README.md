@@ -8,3 +8,17 @@ Antimicrobial peptides (AMPs) are increasingly being used in the development of 
 - 1_Create_Word_Embeddings.ipynb shows an example of how to create embeddings using the pre-trained language models (in this case T5XL Uniref50), inputting amino acid sequences of AMPs and Non-AMPs and outputting vectorized embeddings.
 - 2_Build_CNN_Model.ipynb shows how the convolutional neural network models were built that used the word embedding vectors in order to classify peptide sequences. 
 - 3_Testing_Models.ipynb shows the testing of the built models on the unseen test data. Data from external webserver model predictions is incorporated. 
+
+## Language Models - Citation
+- This work would not have been possible without the use of the pre-trained language models produced by Elnaggar et al.'s work. Please see below for more details of that research.
+
+@ARTICLE
+{9477085,
+author={Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Yu, Wang and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and Bhowmik, Debsindhu and Rost, Burkhard},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing},
+year={2021},
+volume={},
+number={},
+pages={1-1},
+doi={10.1109/TPAMI.2021.3095381}}
