@@ -1,6 +1,6 @@
 # LMPred: Predicting Antimicrobial Peptides Using Pre-Trained Language Models and Deep Learning
 
-## Abstract (Taken from Dissertation Report)
+## Abstract
 Antimicrobial peptides (AMPs) are increasingly being used in the development of new therapeutic drugs, in areas such as cancer therapy and hypertension. Additionally, they are seen as an alternative to antibiotics due to the increasing occurrence of bacterial resistance. Wetlaboratory experimental identiﬁcation, however, is both time consuming and costly, so in-silico models are now commonly used in order to screen new AMP candidates. This paper proposes a novel approach of creating model inputs; using pre-trained language models to produce contextualized embeddings representing the amino acids within each peptide sequence, before a convolutional neural network is then trained as the classiﬁer. The optimal model was validated on two datasets, being one previously used in AMP prediction research, and an independent dataset, created by this paper. Predictive accuracies of 93.33% and 88.26% were achieved respectively, outperforming all previous state-of-the-art classiﬁcation models.
 
 
